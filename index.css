@@ -1,0 +1,112 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(216, 12%, 8%);
+}
+
+p {
+    font-family: 'League Spartan', sans-serif;
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+}
+
+h4 {
+    color: white;
+}
+
+.content {
+    margin: 27px;
+}
+
+.main {
+    min-width: 20%;
+    max-width: 20%;
+    min-height: 340px;
+    background-color: hsl(215, 25%, 14%);
+}
+
+.numbers {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0 25px 0;
+}
+
+.numbers button {
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(217, 12%, 63%);
+}
+
+.rounded-circle {
+    background-color: hsl(213, 19%, 18%);
+}
+
+.numbers button:hover {
+    background-color: orange;
+    color: white;
+}
+
+.d-grid button:hover {
+    background-color: white;
+    color: orange;
+    border: 1px solid white;
+}
+
+.d-grid button {
+    background-color: orange;
+    color: white;
+}
+
+.star {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 35px;
+    min-height: 35px;
+    margin-bottom: 15px;
+}
+
+/*thank you card*/
+.thyou {
+    min-width: 20%;
+    max-width: 20%;
+    min-height: 345px;
+    background-color: hsl(215, 25%, 14%);
+
+}
+
+.thyouContent {
+    margin: 27px;
+    text-align: center;
+}
+
+.container {
+    max-height: fit-content;
+    margin: 15px 0 15px 0;
+}
+
+.rate {
+    background-color: hsl(213, 19%, 18%);
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.rate p {
+    color: orange;
+}
+
+@media(max-width:375px) {
+    .main {
+        min-width: 80%;
+    }
+
+    .thyou {
+        min-width: 80%;
+    }
+
+    .rate {
+        margin: 15px 0 15px 0;
+    }
+}
